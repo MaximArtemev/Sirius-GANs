@@ -32,7 +32,7 @@ To run docker image run following code inside repo directory
 
 For example:
 
-```docker run --rm -v `pwd`:/home/sirius --name leader --runtime nvidia -it -p 7777:8888 mrartemev/leadership```
+```docker run --rm -v `pwd`:/home/sirius --name sirius --runtime nvidia -it -p 7777:8888 mrartemev/sirius```
 
 Running this command will mount docker to your repo directory and execute jupyter notebook command inside your docker.
 
