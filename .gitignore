@@ -3,3 +3,4 @@
 *.csv
 */MNIST/*
 MNIST
+*models*
